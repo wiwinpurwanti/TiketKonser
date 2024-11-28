@@ -1,0 +1,146 @@
+/* Style umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Warna background cream untuk seluruh halaman */
+body {
+    background-color: #f5f5dc; /* Cream */
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f5f5dc; /* Cream */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #7c4d1a; /* Darker cream/brown on hover */
+}
+
+/* Styling form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.btn-pesan {
+    background-color: #7c4d1a; /* Dark brown for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn-pesan:hover {
+    background-color: #5b3e14; /* Darker brown on hover */
+}
+
+/* Section style */
+.daftar-konser h2, .form-pemesanan h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Card Styling for concerts */
+.konser-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.konser-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.konser-card h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.konser-card .tanggal, .konser-card .lokasi, .konser-card .harga {
+    font-size: 14px;
+    color: #777;
+}
+
+.konser-card .stok {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Alert box styling */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Footer style */
+footer {
+    background-color: #f5f5dc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #333;
+}
